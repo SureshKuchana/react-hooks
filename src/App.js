@@ -2,6 +2,7 @@ import React from "react";
 import UseStateHook from "./01-useState";
 import UseReducer from "./02-useReducer";
 import UseContext from "./03-useContext";
+import UseEffect from "./04-useEffect";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <hr />
       <h4>UseContext</h4>
       <UseContext />
+      <hr />
+      <h4>UseEffect</h4>
+      <UseEffect />
     </div>
   );
 }
