@@ -33,7 +33,7 @@ export const UsePicture = () => {
         type="date"
         onChange={(e) => setDate(e.target.value)}
       />
-      {/* <h3>{picture.title}</h3> */}
+      <h3>{picture.title}</h3>
       <span>{picture.explanation}</span>
       <img src={picture.url} alt={picture.title} />
     </div>

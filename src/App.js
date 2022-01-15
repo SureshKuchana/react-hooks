@@ -4,6 +4,7 @@ import UseReducer from "./02-useReducer";
 import UseContext from "./03-useContext";
 import UseEffect from "./04-useEffect";
 import { UsePicture } from "./05-usePicture";
+import { UseNetwork } from "./06-useNetwork";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       <hr />
       <h4>UsePicture</h4>
       <UsePicture />
+      <hr />
+      <h4>UseNetwork</h4>
+      <UseNetwork />
     </div>
   );
 }
