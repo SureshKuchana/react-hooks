@@ -3,7 +3,6 @@ import { useDarkMode } from "./useDarkMode";
 
 const UseEffect = () => {
   let isDarkMode = useDarkMode;
-  console.log(" isDarkMode ", isDarkMode);
   return (
     <div
       style={{

@@ -6,7 +6,6 @@ export const useDarkMode = () => {
   let [dark, setDark] = useState(initialDark);
 
   const listener = (event) => {
-    console.log(event);
     setDark(event);
   };
 
