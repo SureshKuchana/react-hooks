@@ -5,6 +5,7 @@ import UseContext from "./03-useContext";
 import UseEffect from "./04-useEffect";
 import { UsePicture } from "./05-usePicture";
 import { UseNetwork } from "./06-useNetwork";
+import { UseStorage } from "./07-useStorage";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       <hr />
       <h4>UseNetwork</h4>
       <UseNetwork />
+      <hr />
+      <h4>UseStorage</h4>
+      <UseStorage />
     </div>
   );
 }
